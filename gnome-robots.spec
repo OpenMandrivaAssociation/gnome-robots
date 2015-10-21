@@ -1,7 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-robots
-Version:	3.16.1
+Version:	3.18.0
 Release:	3
 Summary:	GNOME Robots game
 License:	GPLv2+ and GFDL
