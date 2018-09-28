@@ -2,5 +2,6 @@ removed_sources:
   gnome-robots-3.14.2.tar.xz: 9a6734c75add260525447564102aa1038777da76
   gnome-robots-3.16.1.tar.xz: eaab53e87805ecd52cc7586f1279313b750f83a5
   gnome-robots-3.18.0.tar.xz: de9d7a6e2678cdb8bc3d0e3816836f122698d386
-sources:
   gnome-robots-3.18.1.tar.xz: f909d494daa284890a7ae8b530b2a12da5e9f288
+sources:
+  gnome-robots-3.22.3.tar.xz: d8e886a1af60ae65de322fad354c8c26e06f2802
