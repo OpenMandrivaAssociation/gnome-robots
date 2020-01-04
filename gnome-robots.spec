@@ -44,11 +44,11 @@ aren't very smart and you also have a helpful teleportation gadget.
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/glib-2.0/schemas/org.gnome.robots.gschema.xml
+%{_datadir}/applications/org.gnome.Robots.desktop
+%{_datadir}/glib-2.0/schemas/org.gnome.Robots.gschema.xml
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.Robots.appdata.xml
 
 
