@@ -16,6 +16,7 @@ BuildRequires:	intltool > 0.50
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	pkgconfig(libgnome-games-support-1)
+BuildRequires:  meson
 Obsoletes:	gnobots2
 Obsoletes:	gnobots2-extra-data
 # For help
@@ -30,11 +31,11 @@ aren't very smart and you also have a helpful teleportation gadget.
 %setup -q
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meon_install
 
 %find_lang %{name} --with-gnome
 
