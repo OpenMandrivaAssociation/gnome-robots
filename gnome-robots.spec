@@ -37,7 +37,7 @@ aren't very smart and you also have a helpful teleportation gadget.
 %meson_build
 
 %install
-%meon_install
+%meson_install
 
 %find_lang %{name} --with-gnome
 
