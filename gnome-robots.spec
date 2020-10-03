@@ -46,6 +46,7 @@ aren't very smart and you also have a helpful teleportation gadget.
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Robots.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Robots.gschema.xml
+%{_datadir}/dbus-1/services/org.gnome.Robots.service
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
