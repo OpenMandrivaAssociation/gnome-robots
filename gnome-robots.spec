@@ -19,6 +19,7 @@ BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	pkgconfig(libgnome-games-support-1)
 BuildRequires:  meson
+BuildRequires:  pkgconfig(vapigen)
 Obsoletes:	gnobots2
 Obsoletes:	gnobots2-extra-data
 # For help
