@@ -5,7 +5,7 @@
 
 Name:		gnome-robots
 Version:	40.0
-Release:	4
+Release:	5
 Summary:	GNOME Robots game
 License:	GPLv2+ and GFDL
 Group:		Games/Arcade
