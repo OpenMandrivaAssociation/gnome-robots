@@ -4,14 +4,15 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		gnome-robots
-Version:	40.0
-Release:	5
+Version:	41.1
+Release:	1
 Summary:	GNOME Robots game
 License:	GPLv2+ and GFDL
 Group:		Games/Arcade
 URL:		https://wiki.gnome.org/Robots
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:  rust-packaging
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(libcanberra-gtk3) >= 0.26
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:  typelib(Rsvg)
