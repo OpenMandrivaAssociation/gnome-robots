@@ -57,6 +57,6 @@ aren't very smart and you also have a helpful teleportation gadget.
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/org.gnome.Robots.appdata.xml
+%{_datadir}/metainfo/org.gnome.Robots.metainfo.xml
 
 
