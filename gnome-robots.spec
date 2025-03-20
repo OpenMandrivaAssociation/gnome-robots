@@ -4,7 +4,7 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		gnome-robots
-Version:	41.1
+Version:	41.2
 Release:	1
 Summary:	GNOME Robots game
 License:	GPLv2+ and GFDL
@@ -37,7 +37,7 @@ kill you. Each step you take brings them closer toward you. Fortunately they
 aren't very smart and you also have a helpful teleportation gadget.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %meson
@@ -58,5 +58,3 @@ aren't very smart and you also have a helpful teleportation gadget.
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
 %{_datadir}/metainfo/org.gnome.Robots.metainfo.xml
-
-
