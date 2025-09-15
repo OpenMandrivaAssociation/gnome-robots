@@ -20,6 +20,7 @@ BuildRequires:  typelib(Rsvg)
 BuildRequires:  librsvg-vala-devel
 BuildRequires:  pkgconfig(gsound)
 BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:	intltool > 0.50
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
