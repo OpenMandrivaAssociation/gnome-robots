@@ -11,6 +11,8 @@ License:	GPLv2+ and GFDL
 Group:		Games/Arcade
 URL:		https://wiki.gnome.org/Robots
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Source1:  vendor.tar.xz
+
 BuildRequires:  rust-packaging
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(libcanberra-gtk3) >= 0.26
@@ -39,7 +41,18 @@ kill you. Each step you take brings them closer toward you. Fortunately they
 aren't very smart and you also have a helpful teleportation gadget.
 
 %prep
-%autosetup -p1
+%autosetup -p1 -a1
+%cargo_prep -v vendor
+
+cat >>Cargo.toml <<EOF
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+EOF
+
 
 %build
 %meson
