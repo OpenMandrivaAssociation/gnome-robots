@@ -19,6 +19,7 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  typelib(Rsvg)
 BuildRequires:  librsvg-vala-devel
 BuildRequires:  pkgconfig(gsound)
+BuildRequires:  appstream
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:	intltool > 0.50
