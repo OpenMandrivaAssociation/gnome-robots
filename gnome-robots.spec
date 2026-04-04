@@ -15,6 +15,7 @@ Source1:  vendor.tar.xz
 
 BuildRequires:  rust-packaging
 BuildRequires:	pkgconfig(gtk4)
+BuildRequires:  pkgconfig(glycin-2)
 BuildRequires:	pkgconfig(libcanberra-gtk3) >= 0.26
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:  pkgconfig(libadwaita-1)
