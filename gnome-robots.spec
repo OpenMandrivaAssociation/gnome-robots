@@ -4,8 +4,8 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		gnome-robots
-Version:	41.2
-Release:	3
+Version:	50.0
+Release:	1
 Summary:	GNOME Robots game
 License:	GPLv2+ and GFDL
 Group:		Games/Arcade
@@ -26,7 +26,7 @@ BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:	intltool > 0.50
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:	pkgconfig(libgnome-games-support-1)
 BuildRequires:  meson
 BuildRequires:  pkgconfig(vapigen)
